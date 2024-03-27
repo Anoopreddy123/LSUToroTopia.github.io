@@ -268,9 +268,10 @@ html,
   .social-media-icons img {
     height: 30px; 
   }
-  .torolinkpic {
-    height: auto;
-    width: 80%;
+ .torolinkpic{
+    width: min-content;
+   height: 15vh;
+    padding-left: 30%;
   }
 
   .logo img {
@@ -281,10 +282,6 @@ html,
     width: fit-content;
     right: 0;
   }
-  .torolinkpic{
-    width: min-content;
-   height: 15vh;
-    padding-left: 30%;
-  }
+ 
 
 }
