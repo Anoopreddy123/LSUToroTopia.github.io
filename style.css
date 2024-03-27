@@ -281,6 +281,10 @@ html,
     width: fit-content;
     right: 0;
   }
-
+  .torolinkpic{
+    width: min-content;
+   height: 15vh;
+    padding-left: 30%;
+  }
 
 }
