@@ -194,19 +194,30 @@ html,
   line-height: 1.2;
 }
 
+
+
+
 .send-message-button {
-  background-color: #8b0000;
+  background-color: #8b0000; 
   color: white;
-  width: 13%;
+  width: 10%;  
   height: 30px;
   border: none;
   border-radius: 5px;
   box-shadow: 0 4px #660000;
   cursor: pointer;
-  position: absolute;
-  right: 20px;
+  position: fixed; 
+  bottom: 10px; 
+  right: 20px;  
+  padding: 5px 25px; 
+  z-index: 1000; 
+  padding-top: 0;
+}
 
-  padding-right: 25px;
+.send-message-button p{
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-bottom: 5px;
 }
 
 
