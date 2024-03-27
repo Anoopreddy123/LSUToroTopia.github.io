@@ -4,9 +4,6 @@ html,
   padding: 0;
   background-color: #000;
 }
-
-
-
 .header {
   background-color: #fff;
   color: #000;
@@ -17,6 +14,7 @@ html,
   position: relative;
   height: 99px;
   box-shadow: 5px 5px 4px 1px #e8b909;
+  padding-right: 0;
 }
 
 .logo {
@@ -25,6 +23,10 @@ html,
 }
 .logo img {
   max-height: 50px;
+}
+
+.navbar{
+  padding-right: 0;
 }
 .nav {
   background-color: #fff;
@@ -40,8 +42,10 @@ html,
   text-decoration: none;
   font-family: "Inconsolata", monospace;
   color: #85163b;
-  font-weight: bolder;
-  font-weight: bolder;
+
+  width: 10px;
+  height: 5px;
+ 
 }
 
 .nav a:hover {
@@ -206,9 +210,6 @@ html,
 }
 
 
-
-
-
 /*Responsive */
 
 .activity {
@@ -216,7 +217,7 @@ html,
   margin: 10px; 
 }
 
-/* Media query for tablet screens */
+
 @media (max-width: 992px) {
   .activity {
     flex-basis: calc(100% / 2 - 20px); 
@@ -224,18 +225,15 @@ html,
   .nav li {
     padding: 5px 10px; 
   }
-  .send-message-button {
-    width: 30%; 
-    bottom: 10px; 
-    right: 10px;
-    padding: 0 10px;
-  }
+ 
   .social-media-icons {
     gap: 40px; 
   }
   .social-media-icons img {
     height: 40px; 
   }
+
+
 }
 
 
@@ -243,16 +241,15 @@ html,
   .background-image .lead {
     font-size: 18px; 
   }
+  .background-image {
+    background-image: url("https://anoopreddy123.github.io/LSUToroTopia.github.io/Assets/background.png");
+    background-size: 300% 300%;
+  }
   .activity {
     flex-basis: 100%;
   }
   .nav li {
-    padding: 5px; 
-  }
-  .send-message-button {
-    width: 50%; 
-    bottom: 10px;
-    right: 10px;
+    padding: 2px; 
   }
   .social-media-icons {
     gap: 20px; 
@@ -268,4 +265,11 @@ html,
   .logo img {
     max-height: 30px; 
   }
+
+  .send-message-button{
+    width: fit-content;
+    right: 0;
+  }
+
+
 }
