@@ -1,0 +1,203 @@
+html,
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+.header {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 99px;
+  box-shadow: 5px 5px 4px 1px #e8b909;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  max-height: 50px;
+}
+.nav {
+  background-color: #fff;
+  border-bottom: black;
+  display: flex;
+  list-style-type: none;
+}
+.nav li {
+  color: #85163b;
+  padding: 0 20px;
+}
+.nav a {
+  text-decoration: none;
+  font-family: "Inconsolata", monospace;
+  color: #85163b;
+  font-weight: bolder;
+  font-weight: bolder;
+}
+
+.nav a:hover {
+  color: #85163b;
+  font-weight: 700;
+  text-decoration: none;
+ 
+}
+
+.logo-container {
+  background-color: #fdf3e7;
+  display: inline-block;
+  margin-left: -10px;
+}
+.logo-container img {
+  max-height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-container {
+  width: 100%;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+
+.background-image {
+  background-image: url("Assets/background.png");
+  background-size: 180% 200%;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 50px 20px;
+}
+
+@media (max-width: 768px) {
+  .background-image .lead {
+    font-size: 20px;
+  }
+}
+
+.bg-h1 {
+  color: #f90066;
+}
+
+.activities {
+  background-color: #000;
+  color: #f90066;
+}
+
+.activity {
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-icon {
+  width: 250px;
+  height: auto;
+}
+
+/* Prizes CSS */
+
+.prize {
+  font-size: 14.3px;
+}
+
+/*social Media */
+
+.social-media-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding-left: 15px;
+}
+
+.social-media-icons img {
+  height: 80px;
+}
+
+.icon-with-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.torolinkpic {
+  height: 200px;
+  width: 200px;
+  max-width: 100%;
+}
+
+.hr-line {
+  flex: 0 0 66.5%;
+  max-width: 66.5%;
+}
+
+.footer h5 {
+  margin-bottom: 0;
+}
+
+.footer hr {
+  background-color: white;
+  margin-top: 0.25rem;
+  height: 1px;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style: none;
+  font-size: 13px;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.footer li {
+  padding-top: 0;
+}
+
+.footer .social-icons img {
+  padding-right: 3px;
+  width: 23px;
+  height: 23px;
+}
+
+.footer h5 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer p,
+.footer li {
+  line-height: 1.2;
+}
+
+.send-message-button {
+  background-color: #8b0000;
+  color: white;
+  width: 13%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px #660000;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+
+  padding-right: 25px;
+}
